@@ -31,6 +31,11 @@ var createNewTaskElement = function (taskString) {
   //button.delete
   var deleteButton = document.createElement("button");//delete button
   var deleteButtonImg = document.createElement("img");//delete button image
+  var span = document.createElement("span");
+
+
+  span.className = 'visually-hidden';
+  span.textContent = 'Remove';
 
 
   listItem.className = "list-item"
@@ -49,7 +54,9 @@ var createNewTaskElement = function (taskString) {
 
   deleteButton.className = "btn delete";
   deleteButtonImg.src = './remove.svg';
+  deleteButtonImg.alt = '';
   deleteButton.appendChild(deleteButtonImg);
+  deleteButton.appendChild(span);
 
 
   //and appending.
