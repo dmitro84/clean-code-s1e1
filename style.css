@@ -54,8 +54,9 @@ h3 {
 }
 
 input,
-.btn {
-  outline: none;
+button,
+a {
+  outline-color: rgb(255, 69, 0, 0.3);
 }
 
 .btn {
@@ -109,7 +110,7 @@ h3,
 }
 
 /* New Task */
-.new-task-label {
+.new-task-header {
   display: block;
   margin: 0 0 20px;
 }
@@ -178,3 +179,15 @@ p > button:hover {
   display: none;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
