@@ -157,7 +157,8 @@ h3,
 
 /* Completed */
 #completed-tasks .task-label {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
@@ -173,3 +174,4 @@ h3,
 .list .list-item.edit-mode .task-label {
   display: none;
 }
+
