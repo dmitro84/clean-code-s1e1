@@ -101,8 +101,8 @@ h3,
 .list__label_task-label {
   font-size: 18px;
   line-height: 18px;
+  }
 
-}
 
 .task:focus,
 .list__label_task-label:focus {
@@ -118,19 +118,16 @@ h3,
 #new-task {
   width: 318px;
 }
-p > button:hover {
-    color: #0FC57C;
-}
 
 /* Task list */
 .list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 
